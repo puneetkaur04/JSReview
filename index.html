@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        #heading{
+            text-align: center;
+            display: block;
+            margin-left: 200px;
+            margin-right: auto;
+        }
+
+        body {
+        margin: 0;
+        font-family: "Lato", sans-serif;
+        }
+
+        .sidebar {
+        margin: 0;
+        margin-top: -85px;
+        padding: 0;
+        width: 200px;
+        background-color: #f1f1f1;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+        }
+
+        .sidebar a {
+        display: block;
+        color: black;
+        padding: 16px;
+        text-decoration: none;
+        }
+
+        .sidebar a:hover {
+        background-color: black;
+        color: white;
+        }
+
+        .content {
+        margin-left: 200px;
+        padding: 1px 16px;
+        }
+
+        @media screen and (max-width: 700px) 
+        {
+        .sidebar {
+            width: 100%;
+            height: auto;
+            position: relative;
+        }
+        .sidebar a {float: left;}
+        .content {margin-left: 0;}
+        }
+
+        @media screen and (max-width: 400px) {
+        .sidebar a {
+            text-align: center;
+            float: none;
+        }
+    }
+    #content2{
+            display: block;
+            margin-top:-110px;
+            margin-left: 600px;
+        }
+    .content3{
+        margin-top: -370px;
+    }
+    </style>
+</head>
+<body>
+    <h1 id="heading"> Review JavaScript </h1>
+    <div class="sidebar">
+        <a class="active" href="#home">Home</a>
+        <a href="variables.html">Variables</a>
+        <a href="DOM.html">DOM events</a>
+        <a href="BOM.html">BOM</a>
+        <a href="Popup.html">Popup </a>
+        <a href="JSTiming.html"> JS Timing </a>
+        <a href="JSCookies.html"> JS Cookies </a>
+      </div>
+      <div class="content">
+        <br>
+        <br>
+        <h4> About JavaScript </h4>
+        <p>JavaScript is the world's most popular programming language.</p>
+        <p>JavaScript is the programming language of the Web.</p>
+        <p>JavaScript is easy to learn.</p>
+        <p>This tutorial will teach you JavaScript from basic to advanced.</p>
+        <iframe id="content2" src="https://giphy.com/embed/xT9IgzoKnwFNmISR8I" width="480" height="429" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/code-coding-seamless-xT9IgzoKnwFNmISR8I"></a></p>
+        <section class="content3">
+            <br>
+            <br>
+            <br>
+            <h4>Why Study JavaScript?</h4>
+            <p>JavaScript is one of the 3 languages all web developers must learn:</p>
+            <ol>
+                <li>HTML to define the content of web pages</li>
+                <li>CSS to specify the layout of web pages</li>
+                <li>JavaScript to program the behavior of web pages</li>
+            </ol>
+            <br>
+            <h4>JavaScript Quiz Test</h4>
+            <p>Test your JavaScript skills at W3Schools!</p>
+            <a href="https://www.w3schools.com/js/js_quiz.asp">Click Here to Test! </a>
+            <br>
+            <br>
+            <br>
+            <h4> Learn by Examples</h4>
+            <p>Examples are better than 1000 words. </p>
+            <p>Examples are often easier to understand than text explanations.</p>
+        </section>
+    </div>
+</body>
+</html>

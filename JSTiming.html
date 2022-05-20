@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JS Timing </title>
+    <link rel="stylesheet" href="CSS/JSTimingStyle.css">
+</head>
+<body>
+    <h1 id="heading"> JavaScript Timing Events </h1>
+    <div class="sidebar">
+        <a class="active" href="index.html">Home</a>
+        <a href="variables.html">Variables</a>
+        <a href="DOM.html">DOM events</a>
+        <a href="BOM.html">BOM</a>
+        <a href="Popup.html">Popup </a>
+        <a href="JSTiming.html"> JS Timing </a>
+        <a href="JSCookies.html"> JS Cookies </a>
+      </div>
+    <div class="content">
+        <p>__________________________________________________________________________________________________________________________________________________</p>
+        <section>
+            <p>JavaScript can be executed in time-intervals.</p>
+            <p>This is called timing events.</p>
+        </section>
+        <p>__________________________________________________________________________________________________________________________________________________</p>
+        <section>
+            <h4>Timing Events</h4>
+            <p>The window object allows execution of code at specified time intervals.</p>
+            <p>These time intervals are called timing events.</p>
+            <p>The two key methods to use with JavaScript are:</p>
+            <ul>
+                <li>setTimeout(function, milliseconds)
+                    <p>Executes a function, after waiting a specified number of milliseconds.</p>
+                </li>
+                <li>setInterval(function, milliseconds)
+                    <p>Same as setTimeout(), but repeats the execution of the function continuously.</p>
+                </li>
+            </ul>
+            <p>The setTimeout() and setInterval() are both methods of the HTML DOM Window object.</p>
+        </section>
+        <p>__________________________________________________________________________________________________________________________________________________</p>
+        <section>
+            <h4>The setTimeout() Method</h4>
+            <p>Syntax: </p>
+            <img src="Images/setTimeout.PNG">
+            <p>The window.setTimeout() method can be written without the window prefix.</p>
+            <p>The first parameter is a function to be executed.</p>
+            <p>The second parameter indicates the number of milliseconds before execution.</p>
+            <p>Example: <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_timing1">https://www.w3schools.com/js/tryit.asp?filename=tryjs_timing1</a></p>
+        </section>
+        <p>__________________________________________________________________________________________________________________________________________________</p>
+        <section>
+            <h4>The setInterval() Method</h4>
+            <p>The setInterval() method repeats a given function at every given time-interval.</p>
+            <p> Syntax: </p>
+            <img src="Images/setInterval.PNG">
+            <p>The window.setInterval() method can be written without the window prefix.</p>
+            <p>The first parameter is the function to be executed.</p>
+            <p>The second parameter indicates the length of the time-interval between each execution.</p>
+            <p>This example executes a function called "myTimer" once every second (like a digital watch).</p>
+            <p>Example: <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_setinterval2">https://www.w3schools.com/js/tryit.asp?filename=tryjs_setinterval2</a></p>
+        </section>
+    </div>
+</body>
+</html>
